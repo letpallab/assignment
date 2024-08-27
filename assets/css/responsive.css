@@ -1,0 +1,37 @@
+
+/* Responsive Design */
+
+@media (max-width: 1199px) {
+    
+}
+@media (max-width: 991px) {
+    .card-inr-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 10px;
+    }
+}
+@media (max-width: 768px) {
+    .card-inr-content {
+        grid-template-columns: 1fr;
+        gap: 40px 0;
+    }
+    .page-padding {
+        padding: 30px 15px;
+    }
+    .header-section,.footer-section,.img-desk {
+        display: none;
+    }
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 20px 0;
+    }
+    .img-mobile {
+        display: block;
+    }
+    .about-info {
+        display: none;
+    }
+}
+@media (max-width: 467px) {
+    
+}
