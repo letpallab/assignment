@@ -18,6 +18,9 @@
     .page-padding {
         padding: 30px 15px;
     }
+    .about-section {
+        padding: 30px 0 0 0;
+    }
     .header-section,.footer-section,.img-desk {
         display: none;
     }

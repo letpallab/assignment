@@ -120,6 +120,9 @@ body {
 .l4 li span {
     color: #E20613;
 }
+.about-section {
+    padding:50px 80px;
+}
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
